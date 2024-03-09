@@ -1,12 +1,12 @@
 <p align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://server.theiceji.com/logo_white.svg">
-        <img width="140" alt="Logo for A1" src="https://server.theiceji.com/logo_black.svg">
+        <source media="(prefers-color-scheme: dark)" srcset="https://nova.nexellab.com/logo_white.svg">
+        <img width="140" alt="Logo for A1" src="https://nova.nexellab.com/logo_black.svg">
     </picture>
 </p>
 
 <h1 align="center">
-  Built with <a href="https://server.theiceji.com">NOVA App</a>
+  Built with <a href="https://nova.nexellab.com">NOVA App</a>
 </h1>
 
 <h2 id="about">About this boilerplate</h2>
