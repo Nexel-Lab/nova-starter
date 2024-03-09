@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "app/main.ts",
+            "use": "@vercel/node"
+        }
+    ],
+    "buildCommand": "yarn deploy",
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "dist/app/main.js",
+            "methods": [
+                "GET",
+                "POST",
+                "PUT",
+                "DELETE"
+            ]
+        }
+    ]
+}
