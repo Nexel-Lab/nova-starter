@@ -17,7 +17,7 @@ import { AppService } from './app.service'
       installSubscriptionHandlers: true,
     }),
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '../..', 'client'),
+      rootPath: join(__dirname, '../..', 'public'),
       // exclude: ['/api/(.*)'],
     }),
     ...Modules,
